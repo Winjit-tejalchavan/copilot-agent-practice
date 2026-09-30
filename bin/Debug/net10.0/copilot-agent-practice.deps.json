@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "copilot-agent-practice/1.0.0": {
+        "runtime": {
+          "copilot-agent-practice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "copilot-agent-practice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

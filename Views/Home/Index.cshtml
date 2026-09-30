@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Tea Company";
+}
+
+<section class="hero-section">
+    <div class="hero-copy">
+        <p class="eyebrow">Premium Tea House</p>
+        <h1>Quiet luxury in every cup.</h1>
+        <p>
+            TEA RESERVE curates rare single-origin leaves and artisan blends for slow mornings,
+            thoughtful afternoons, and shared evening rituals.
+        </p>
+        <a class="btn reserve-btn" href="#collections">Explore Collection</a>
+    </div>
+    <div class="hero-card">
+        <p class="hero-card-title">Featured Reserve</p>
+        <h2>Emerald Mist Sencha</h2>
+        <p>Steamed spring harvest with notes of sweet grass, chestnut, and sea breeze.</p>
+        <ul>
+            <li>Origin: Shizuoka, Japan</li>
+            <li>Harvest: First flush</li>
+            <li>Brew: 75&deg;C | 90 sec</li>
+        </ul>
+    </div>
+</section>
+
+<section id="collections" class="section-block">
+    <div class="section-heading">
+        <p class="eyebrow">Collections</p>
+        <h2>Find your signature infusion</h2>
+    </div>
+    <div class="collection-grid">
+        <article class="tea-card">
+            <h3>Verdant Classics</h3>
+            <p>Green teas with bright vegetal character and silky body.</p>
+        </article>
+        <article class="tea-card">
+            <h3>Midnight Oolong</h3>
+            <p>Complex, roasted oolongs with floral top notes and lingering sweetness.</p>
+        </article>
+        <article class="tea-card">
+            <h3>Velvet Black</h3>
+            <p>Bold black teas layered with cocoa, malt, and stone-fruit finish.</p>
+        </article>
+    </div>
+</section>
+
+<section id="story" class="section-block story-panel">
+    <div>
+        <p class="eyebrow">Our Story</p>
+        <h2>Built for those who treat tea as a craft.</h2>
+    </div>
+    <p>
+        Founded by tea sommeliers and growers, TEA RESERVE partners directly with family gardens.
+        Every batch is tasted, profiled, and packed at peak freshness, preserving terroir and aroma.
+    </p>
+</section>
+
+<section id="visit" class="section-block visit-grid">
+    <div>
+        <p class="eyebrow">Visit The Atelier</p>
+        <h2>Tea flight tastings every weekend</h2>
+        <p>12 Willow Lane, Brookfield | Mon-Sat 9:00 AM to 7:00 PM</p>
+    </div>
+    <form class="reserve-form" method="post" action="#">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" />
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" />
+        <button type="button" class="btn reserve-btn">Request Tasting Invite</button>
+    </form>
+</section>
